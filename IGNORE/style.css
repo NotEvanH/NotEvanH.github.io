@@ -19,3 +19,24 @@ button {
 button:hover {
     background-color: #2980b9;
 }
+
+#feedback {
+    margin-top: 20px;
+}
+
+#feedbackMessage {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#feedbackMessage.success {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+#feedbackMessage.error {
+    background-color: #e74c3c;
+    color: #fff;
+}
