@@ -2,14 +2,14 @@ let stopThread = false;
 
 function sendDiscordMessage() {
     const webhookUrl = 'https://discord.com/api/webhooks/1211213871923073044/LzYbUrcR8weY0m8oKSaZgvnpp-pf3r2GdR36WtD4gtvR8027MgxJa9mF2_nzJZ1VBbvb';
-    const messageContent = '<@894519233696903179> Hello';
+    const messageContent = '<@1112686813878964304> Hello';
 
     const headers = {
         'Content-Type': 'application/json'
     };
 
     const mentions = [{
-        'id': 894519233696903179,
+        'id': 1112686813878964304,
         'type': 6
     }];
 
