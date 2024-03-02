@@ -31,13 +31,12 @@ body {
 
 .letter {
     position: absolute;
-    top: 0;
+    top: -50px; /* Adjust the initial position as needed */
     width: 80%;
     height: 80%;
     background-color: white;
     border-radius: 15px;
     z-index: 2;
-    transition: 0.5s;
 }
 
 .letter p {
@@ -84,17 +83,4 @@ body {
     border-top: 100px solid #b175ab;
     transform: rotateX(90deg);
     z-index: 1;
-}
-
-.wrapper:hover .letter {
-    transform: translateY(-50px);
-    transition-delay: 0.5s;
-}
-
-.wrapper:hover .lid.one {
-    transform: rotateX(90deg);
-}
-
-.wrapper:hover .lid.two {
-    transform: rotateX(100deg);
 }
