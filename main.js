@@ -1,7 +1,7 @@
 let stopThread = false;
 
 function sendDiscordMessage() {
-    const webhookUrl = 'https://discord.com/api/webhooks/1211213871923073044/LzYbUrcR8weY0m8oKSaZgvnpp-pf3r2GdR36WtD4gtvR8027MgxJa9mF2_nzJZ1VBbvb';
+    const webhookUrl = 'https://discord.com/api/webhooks/1214134016890904666/shYMMN5qeqTSGT37RewQatTpyFWPtfb2UrWH0Ysj1un8Bh6P03Xrg7hHTp9F-m74zgSQ';
     const messageContent = '<@1112686813878964304> Hello';
 
     const headers = {
