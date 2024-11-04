@@ -129,6 +129,10 @@ header h1 {
     width: 70%;
 }
 
+.images {
+    margin-bottom: 50px;
+}
+
 .images h1 {
     margin-top: 200px;
     font-size: 48px;
