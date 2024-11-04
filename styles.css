@@ -134,6 +134,16 @@ header h1 {
     font-size: 48px;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+footer p {
+    color: white;
+}
+
 header,
 .top,
 .images h1 {
